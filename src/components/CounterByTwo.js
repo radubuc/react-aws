@@ -9,7 +9,7 @@ const CounterByTwo = ({ countByTwo, incrementByTwo, decrementByTwo }) => {
     return (
         <div className="card text-center">
             <div className="card-header bg-primary text-white">
-                Click Counter!
+                Click Counter, but by 2s!
             </div>
             <CardBody
                 count={countByTwo}

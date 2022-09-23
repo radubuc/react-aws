@@ -10,6 +10,7 @@ function App() {
   return (
     <Provider store={store}> 
       <Counter />
+      <br />
       <CounterByTwo />
     </Provider>
 
